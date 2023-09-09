@@ -1464,11 +1464,11 @@ def setting():
 		ualu.append(bzer)
 	else:
 		ualuh.append('tidak')
-	prints(nel(f'{P2}Mau tambahkan password kah lu mek?{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
+	prints(nel(f'{P2}Mau tambahkan password kah lu mek?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
 	pwplus=input('[+] Add Password Manual y/t > ')
 	if pwplus in ['y','Y','ya']:
 		pwpluss.append('ya')
-		prints(nel(f'{P2}Enter an additional password of at least 6 #characters\nExample :[green] Indonesia,rahasia,katasandi[white]{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
+		prints(nel(f'{P2}Enter an additional password of at least 6 #characters\nExample :[green] Indonesia,rahasia,katasandi[white]{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
 		pwku=input('[+] Enter Additional Password : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
