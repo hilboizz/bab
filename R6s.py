@@ -1443,10 +1443,10 @@ def setting():
 	prints(nel(f'{P2}Mau tampilkan aplikasi/opsi yang terkait di dalam akun?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
 	_Asepitgans_ = input('[+] Add tap aplikasi y/t > ')
 	if _Asepitgans_ in ['']:
-		#prints(nel(f'{P2}Pilih yang bener lah anjing{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
-		#back()
+		prints(nel(f'{P2}Pilih yang bener lah anjing{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
+		back()
 	elif _Asepitgans_ in ['y','Y']:
-		#taplikasi.append('ya')
+		taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
 	prints(nel(f'{P2}Mau tampilkan opsi cekpoint yang terkait di dalam akun?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
