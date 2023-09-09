@@ -1438,15 +1438,15 @@ def setting():
 		elif hh in ['10']:
 			method.append('capcut')
 		
-	else:
-		method.append('mobiledate')
-	prints(nel(f'{P2}Mau tampilkan aplikasi/opsi yang terkait di dalam akun?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
-	_Asepitgans_ = input('[+] Add tap aplikasi y/t > ')
-	if _Asepitgans_ in ['']:
-		prints(nel(f'{P2}Pilih yang bener lah anjing{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
-		back()
-	elif _Asepitgans_ in ['y','Y']:
-		taplikasi.append('ya')
+	#else:
+		m#ethod.append('mobiledate')
+	#prints(nel(f'{P2}Mau tampilkan aplikasi/opsi yang terkait di dalam akun?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
+	#_Asepitgans_ = input('[+] Add tap aplikasi y/t > ')
+	#if _Asepitgans_ in ['']:
+		#prints(nel(f'{P2}Pilih yang bener lah anjing{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
+		#back()
+	#elif _Asepitgans_ in ['y','Y']:
+		#taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
 	prints(nel(f'{P2}Mau tampilkan opsi cekpoint yang terkait di dalam akun?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
@@ -1462,8 +1462,8 @@ def setting():
 		prints(nel(f'{P2}Enter an additional User-Agent dan cari di goole chrome\nExample :[green] My User Agent[white]{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
 		bzer = input(f'[+] Enter Addtional User-Agent : ')
 		ualu.append(bzer)
-	#else:
-		#ualuh.append('tidak')
+	else:
+		ualuh.append('tidak')
 	#prints(nel(f'{P2}Mau tambahkan password kah lu mek?{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
 	#pwplus=input('[+] Add Password Manual y/t > ')
 	#if pwplus in ['y','Y','ya']:
