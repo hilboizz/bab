@@ -1462,8 +1462,8 @@ def setting():
 		prints(nel(f'{P2}Enter an additional User-Agent dan cari di goole chrome\nExample :[green] My User Agent[white]{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
 		bzer = input(f'[+] Enter Addtional User-Agent : ')
 		ualu.append(bzer)
-	else:
-		ualuh.append('tidak')
+	#else:
+		#ualuh.append('tidak')
 	#prints(nel(f'{P2}Mau tambahkan password kah lu mek?{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
 	#pwplus=input('[+] Add Password Manual y/t > ')
 	#if pwplus in ['y','Y','ya']:
