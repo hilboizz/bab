@@ -1438,14 +1438,14 @@ def setting():
 		elif hh in ['10']:
 			method.append('capcut')
 		
-	#else:
-		m#ethod.append('mobiledate')
-	#prints(nel(f'{P2}Mau tampilkan aplikasi/opsi yang terkait di dalam akun?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
-	#_Asepitgans_ = input('[+] Add tap aplikasi y/t > ')
-	#if _Asepitgans_ in ['']:
+	else:
+		method.append('mobiledate')
+	prints(nel(f'{P2}Mau tampilkan aplikasi/opsi yang terkait di dalam akun?{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
+	_Asepitgans_ = input('[+] Add tap aplikasi y/t > ')
+	if _Asepitgans_ in ['']:
 		#prints(nel(f'{P2}Pilih yang bener lah anjing{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
 		#back()
-	#elif _Asepitgans_ in ['y','Y']:
+	elif _Asepitgans_ in ['y','Y']:
 		#taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
@@ -1462,18 +1462,18 @@ def setting():
 		prints(nel(f'{P2}Enter an additional User-Agent dan cari di goole chrome\nExample :[green] My User Agent[white]{P2}',width=70,padding=(0,7),style=f"{color_panel}"))
 		bzer = input(f'[+] Enter Addtional User-Agent : ')
 		ualu.append(bzer)
-	#else:
-		#ualuh.append('tidak')
-	#prints(nel(f'{P2}Mau tambahkan password kah lu mek?{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
-	#pwplus=input('[+] Add Password Manual y/t > ')
-	#if pwplus in ['y','Y','ya']:
-		#pwpluss.append('ya')
-		#prints(nel(f'{P2}Enter an additional password of at least 6 #characters\nExample :[green] Indonesia,rahasia,katasandi[white]{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
-		#pwku=input('[+] Enter Additional Password : ')
-		#pwkuh=pwku.split(',')
-		#for xpw in pwkuh:
-			#pwnya.append(xpw)
-	#else:
+	else:
+		ualuh.append('tidak')
+	prints(nel(f'{P2}Mau tambahkan password kah lu mek?{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
+	pwplus=input('[+] Add Password Manual y/t > ')
+	if pwplus in ['y','Y','ya']:
+		pwpluss.append('ya')
+		prints(nel(f'{P2}Enter an additional password of at least 6 #characters\nExample :[green] Indonesia,rahasia,katasandi[white]{P2}',#width=70,padding=(0,7),style=f"{color_panel}"))
+		pwku=input('[+] Enter Additional Password : ')
+		pwkuh=pwku.split(',')
+		for xpw in pwkuh:
+			pwnya.append(xpw)
+	else:
 		#pwpluss.append('tidak')
 	su()
 	   
