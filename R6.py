@@ -1669,7 +1669,8 @@ def passu():
 					if len(Depan)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append(nmf)						pwv.append(frs+'02')
+						pwv.append(nmf)
+						pwv.append(frs+'02')
 						pwv.append(frs+'03')
 						pwv.append(frs+'04')
 						pwv.append(frs+'05')
