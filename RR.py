@@ -191,7 +191,7 @@ for xd in range(1000):
 #USER AGENT CRACK REALMI*I#
 ugen8=[]
 for tu in range(1000):
-            a =random.randrange(7,13)
+            a =random.randrange(3,12)
             b = random.choice([
             'GT Neo',
             'GT Neo 3 150W',
@@ -263,7 +263,7 @@ for tu in range(1000):
             f = random.randrange(73, 99)
             g = random.randrange(4200, 4900)
             h = random.randrange(40, 150)
-            uaku2 = f'Mozilla/5.0 (X11; U; Linux {c} {a}; {b} Build/{d}.0.0{e}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{f}.0.{g}.{h} Mobile Safari/537.36'
+            uaku2 = f'Mozilla/5.0 (Linux; Android {c} {a}; {b} Build/{d}.0.0{e}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{f}.0.{g}.{h} Mobile Safari/537.36'
             ugen8.append(uaku2)
             
 # Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.1a) Gecko/20020619
